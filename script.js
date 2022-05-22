@@ -1,17 +1,22 @@
 //The functions for basic operations of the calculator
 
-const add = function(a, b) {
+function add(a, b) {
 	return a + b;
 };
 
-const subtract = function(a, b) {
+function subtract(a, b) {
 	return a - b;
 };
 
-const multiply = function(a, b) {
+function multiply(a, b) {
     return (a * b);
 };
 
-const divide = function(a, b){
+function divide(a, b){
     return a / b;
+};
+
+
+function operate(operator, a, b){
+    return operator;
 };
